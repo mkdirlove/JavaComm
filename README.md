@@ -4,6 +4,7 @@ My commission works in Java.
 # How To Use
 
 ```
+
 Compile and run "Driver.java" to start the application.
 
 --------------------------------------------------------------------------------
@@ -37,15 +38,4 @@ ShipmentInfo.txt
         MovieName|HaveValue|
 --------------------------------------------------------------------------------
 
-
-
---------------------------------------------------------------------------------
-Waitlist.txt
---------------------------------------------------------------------------------
--This file contains the waiting list of people
--This saves the customers first and last name as well as their phone number.
--Format for file:
-
-        FirstName|LastName|PhoneNumber|
---------------------------------------------------------------------------------
 ```
