@@ -30,15 +30,3 @@ ShipmentInfo.txt
 
         MovieName|HaveValue|
 --------------------------------------------------------------------------------
-
-
-
---------------------------------------------------------------------------------
-Waitlist.txt
---------------------------------------------------------------------------------
--This file contains the waiting list of people
--This saves the customers first and last name as well as their phone number.
--Format for file:
-
-        FirstName|LastName|PhoneNumber|
---------------------------------------------------------------------------------
