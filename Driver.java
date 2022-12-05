@@ -5,6 +5,7 @@ public class Driver {
                 LinkedList<Movie> list = new LinkedList<Movie>();
                 Queue<Customer> queue = new LinkedList<Customer>();
                 Utility.restoreList(list);
+                Utility.restoreWaitQueue(queue);
                 Display.commandListMenu();
 
                 while (true) {
