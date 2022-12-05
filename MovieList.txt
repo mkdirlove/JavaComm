@@ -1,0 +1,19 @@
+2001: A Space Odyssey|99|0|
+Casablanca|99|0|
+Citizen Kane|0|100|
+Deadpool|99|100|
+Forrest Gump|0|100|
+Goodfellas|49|50|
+Gravity|97|300|
+Jaws|0|100|
+One Flew Over the Cuckoo's Nest|99|0|
+Psycho|100|30|
+Pulp Fiction|300|0|
+Raiders of the Lost Ark|100|0|
+Robocop|238|0|
+Rocky|50|0|
+Schindler's List|24|75|
+Taxi Driver|98|0|
+The Godfather|96|0|
+The Godfather Part II|0|100|
+The Wizard of Oz|32|98|
