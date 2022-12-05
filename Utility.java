@@ -98,19 +98,6 @@ public class Utility {
                 return stringArray;
         }
 
-        public static void restoreWaitQueue(Queue<Customer> queue) {
-                try {
-                        File file = new File("WaitList.txt");
-                        Scanner readFile = new Scanner(new FileInputStream(file));
-
-                        while (readFile.hasNextLine()) {
-                                String[] stringArray = restoreHelper(file, readFile);
-                                queue.add(new Customer(stringArray[0], stringArray[1], stringArray[2]));
-                        }
-                } catch (Exception e) {
-                        e.printStackTrace();
-                }
-        }
 
         public static void restoreList(LinkedList<Movie> list) {
                 try {
@@ -136,20 +123,6 @@ public class Utility {
                         return Integer.parseInt(text);
                 } catch (NumberFormatException e) {
                         return -1;
-                }
-        }
-
-        public static void writeToWaitFile(Queue<Customer> queue) {
-                try {
-                        PrintWriter writer = new PrintWriter("WaitList.txt");
-
-                        for (int i = 0; i < queue.size(); i++) {
-                                writer.println(((LinkedList<Customer>) queue).get(i));
-                        }
-
-                        writer.close();
-                } catch (FileNotFoundException e) {
-                        e.printStackTrace();
                 }
         }
 
